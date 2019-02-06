@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_marginBottom="16dp"
+    android:layout_marginTop="16dp"
+    android:layout_marginRight="2dp"
+    android:layout_marginLeft="2dp"
+    tools:context=".CitySearch">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.4"
+            android:text="city name:"
+            android:textAllCaps="true"
+            android:gravity="center"
+            android:textSize="18sp"
+            android:textColor="@color/allTextColor"
+            android:textStyle="bold"
+            />
+
+        <EditText
+            android:id="@+id/search_city_et"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.5"
+            android:textSize="18sp"/>
+
+        <Button
+            android:id="@+id/search_proceed"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.2"
+            android:text="go"
+            android:textSize="18sp"
+            android:textColor="@color/backTextColor"
+            android:background="@drawable/button"
+            android:layout_marginLeft="2dp"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>
