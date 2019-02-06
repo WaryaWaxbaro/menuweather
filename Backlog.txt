@@ -1,0 +1,10 @@
+As a user, I can see all the menu of the day in the list view
+As a user, I can choose to see all the menu of next day in the list view
+As a user, I can choose to see all the menu of the previous day in the list view
+As a user, I can see the date of the menu
+As a user, I can choose the menu items individually from the list view
+As a user, I can know if their is no menu for that day
+As a user, I can see the weather of the day
+As a user, I can see the weather icon of the day
+As a user, I can type the city that I want to see it is weather 
+As a user, I do not need again to type the city name
